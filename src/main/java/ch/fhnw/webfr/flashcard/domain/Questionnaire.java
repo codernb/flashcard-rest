@@ -9,6 +9,7 @@ import com.google.common.base.Objects;
 
 @Document(collection="questionnaires")
 public class Questionnaire {
+	
     @Id
     private String id;
     
